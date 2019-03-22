@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name various)(type Legacy)(uri ${VENTLIB_SYMBOL_DIR}/various.lib)(options "")(descr ""))
+  (lib (name stm32f1_module)(type Legacy)(uri C:/Working/Git/VentLib/alex_libs/STM32F1_China_module/stm32f1_module.lib)(options "")(descr ""))
+)
