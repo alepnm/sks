@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x03
+# Connector_Generic_Conn_01x03
 #
-DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -22,11 +22,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -40,11 +40,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D
+# Device_D
 #
-DEF Device:D D 0 40 N N 1 F N
+DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -62,11 +62,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -79,11 +79,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Timer:NE555
+# Timer_NE555
 #
-DEF Timer:NE555 U 0 20 Y Y 1 F N
+DEF Timer_NE555 U 0 20 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
-F1 "Timer:NE555" 100 350 50 H V L CNN
+F1 "Timer_NE555" 100 350 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS ICM7555 LMC555xM LMC555xMM LMC555xN MC1455 TLC555CD TLC555CP TLC555CPS NA555 NE555 SE555 SA555
@@ -106,11 +106,11 @@ X DIS 7 500 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Transistor_BJT:BC847
+# Transistor_BJT_BC847
 #
-DEF Transistor_BJT:BC847 Q 0 0 Y N 1 F N
+DEF Transistor_BJT_BC847 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_BJT:BC847" 200 0 50 H V L CNN
+F1 "Transistor_BJT_BC847" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 ALIAS BC818 BC847 BC848 BC849 BC850 MMBT3904 MMBT5550L MMBT5551L
@@ -129,11 +129,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -142,11 +142,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# various:Opto_Interrupter
+# sks-rescue_Opto_Interrupter-various
 #
-DEF various:Opto_Interrupter U 0 40 Y Y 1 F N
+DEF sks-rescue_Opto_Interrupter-various U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V C CNN
-F1 "various:Opto_Interrupter" 50 -200 50 H V C CNN
+F1 "sks-rescue_Opto_Interrupter-various" 50 -200 50 H V C CNN
 F2 "various:Opto_Interrupter" 100 -250 50 H I C CNN
 F3 "" 25 0 50 H I C CNN
 DRAW

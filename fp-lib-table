@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name stm32f1_module)(type KiCad)(uri C:/Working/Git/VentLib/alex_libs/STM32F1_China_module/stm32f1_module.pretty)(options "")(descr ""))
-  (lib (name i2c_rtc_modulis)(type KiCad)(uri C:/Working/Git/VentLib/alex_libs/I2C_RTC_module/i2c_rtc_modulis.pretty)(options "")(descr ""))
+  (lib (name i2c_rtc_modulis)(type KiCad)(uri D:/VentLib/alex_libs/I2C_RTC_module/i2c_rtc_modulis.pretty)(options "")(descr ""))
+  (lib (name stm32f1_module)(type KiCad)(uri D:/VentLib/alex_libs/STM32F1_China_module/stm32f1_module.pretty)(options "")(descr ""))
 )
